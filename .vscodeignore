@@ -1,0 +1,5 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+shell.nix
+theme.tpl
