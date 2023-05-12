@@ -1,4 +1,4 @@
-# <p style="text-align:center;">![image](./icon.png)<br/>edark</p>
+# <p align="center">![image](./icon.png)<br/>edark</p>
 
 Personal VSCode theme, solid black/blue/white with the vibrant syntax highlighting of [Dark Mint](https://marketplace.visualstudio.com/items?itemName=hugolcouto.dark-mint-vscode-theme)<sup>[[license?](#license)]</sup>.
 
