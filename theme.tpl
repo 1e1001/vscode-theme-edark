@@ -30,6 +30,8 @@
     "editorGutter.background": "#000000",
     "editorIndentGuide.activeBackground": "@:[color]bf",
     "editorIndentGuide.background": "@:[color]7f",
+    "editorInlayHint.background": "#00000000",
+    "editorInlayHint.foreground": "@:[color]7f",
     "editorLineNumber.activeForeground": "#ffffff",
     "editorWhitespace.foreground": "@:[color]",
     "editorWidget.background": "#000000",

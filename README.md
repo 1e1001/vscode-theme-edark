@@ -18,6 +18,9 @@ or whatever vscode derivative you happen to use
 ```
 
 ## Changelog
+### v1.1.1
+fix inlay hint colors
+
 ### v1.1.0
 Add custom accent color support, add `tpl` for building
 
