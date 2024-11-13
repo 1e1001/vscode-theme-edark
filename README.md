@@ -3,21 +3,17 @@
 Personal VSCode theme, solid black/blue/white with the vibrant syntax highlighting of [Dark Mint](https://marketplace.visualstudio.com/items?itemName=hugolcouto.dark-mint-vscode-theme)<sup>[[license?](#license)]</sup>.
 
 ## Colors
-foreground `#ffffff`, background `#000000`, default accent color of `#3f00ff`, like in the logo
+Foreground `#ffffff`, background `#000000`, default accent color of `#3f00ff`, like in the logo. Colors are configurable when compiling.
 
-```
-or install `nodejs`, `vsce`, and `racket` manually
-$ nix-shell
-first time setup only, currently requires installing via github (not on racket packages)
-% raco pkg install tpl
-% racket theme.tpl '#007fff'
-% vsce pacakge
-or whatever vscode derivative you happen to use
-% code --install-extension ./edark-*.vsix
-% rm ./edark-*.vsix
-```
+## Install
+Dependencies: `vsce`, `nodejs`, `gnumake`
+
+Use the provided `Makefile` to compile the extension, and install it with your code-oss fork of choice (in my case, `code-server --install-extension edark.vsix`)
 
 ## Changelog
+### v1.2.0
+Replace racket-based compiler with a shell script
+
 ### v1.1.2
 Reversed bracket colors for an RGB-kinda look
 

@@ -1,5 +1,8 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+Makefile
 shell.nix
-theme.tpl
+template.json
+template.sh
+edark.vsix
