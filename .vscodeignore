@@ -4,5 +4,7 @@
 Makefile
 shell.nix
 template.json
+template-zed.json
+theme-zed.json
 template.sh
 edark.vsix

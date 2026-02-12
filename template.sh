@@ -1,10 +1,11 @@
 # generate the theme.json
 set -x
 # theme variables
-sed template.json -e "s/<fg>/$1/g" -e "s/<bg>/$2/g" -e "s/<accent>/$3/g" -e 's/<!.*\?>//g' >theme.json
+sed "$1" -e "s/<fg>/$3/g" -e "s/<bg>/$4/g" -e "s/<accent>/$5/g" -e 's/<!.*\?>//g' >"$2"
 # trim whitespace
-while grep -Eqm1 '^[^" ]*("[^" ]*?"[^" ]*?)*? +' theme.json; do
-	sed theme.json -Ei -e 's/^([^" ]*?("[^" ]*?"[^" ]*?)*?) +/\1/g'
+sed "$2" -i -e 's/\t/ /g'
+while grep -Eqm1 '^[^" ]*("[^" ]*?"[^" ]*?)*? +' "$2"; do
+	sed "$2" -Ei -e 's/^([^" ]*?("[^" ]*?"[^" ]*?)*?) +/\1/g'
 done
 # strip newlines
-sed theme.json -zi -e 's/\n//g'
+sed "$2" -zi -e 's/\n//g'
