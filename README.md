@@ -11,7 +11,7 @@ I develop on a small laptop in a variety of environments, so text must be readab
 - The thin and sharp edges of GNU Unifont reduces the effect of "bloom"<sup>[what's the technical term?]</sup>. It also has fairly recognizable letter-shapes, and generally looks pretty good.
 - The white-on-black contrast makes the screen dimmer in low-light conditions, and is always quite readable.
 - White is used as the default color for prose, which helps differentiate it from code.
-- <u>Dark blue is used for LSP inlay hints</u>, the color is chosen to be dark enough for me to automatically ignore them, but bright enough to read when needed, without needing to toggle a setting.
+- **Dark blue is used for LSP inlay hints**, the color is chosen to be dark enough for me to automatically ignore them, but bright enough to read when needed, without needing to toggle a setting.
 - Other colors are chosen carefully to be easily distinguishable and meaningful, information given by the LSP (e.g. variable source) is not included.
 - I run VSCode directly in firefox, because chromium does not properly handle bitmap fonts (and it's more convenient for usage)
 
