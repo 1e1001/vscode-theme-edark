@@ -16,19 +16,19 @@ I develop on a small laptop in a variety of environments, so text must be readab
 - I run VSCode directly in firefox, because chromium does not properly handle bitmap fonts (and it's more convenient for usage)
 
 ## Colors
-|Name||Value|Notes|
-|-:|:-:|:-:|:-|
-|Foreground| <span style="color:#ffffff">◼</span> |`#ffffff`||
-|Background| <span style="color:#000000">◼</span> |`#000000`||
-|Accent    | <span style="color:#3f00ff">◼</span> |`#3f00ff`|configurable, for some reason|
-|Structure | <span style="color:#ff4466">◼</span> |`#ff4466`||
-|Prose     | <span style="color:#ffffff">◼</span> |`#ffffff`|text in comments|
-|Variable  | <span style="color:#00cc99">◼</span> |`#00cc99`||
-|Function  | <span style="color:#5555ff">◼</span> |`#5555ff`||
-|Type      | <span style="color:#00ccff">◼</span> |`#00ccff`|also used for Rust lifetimes|
-|Namespace | <span style="color:#8888ff">◼</span> |`#8888ff`||
-|Property  | <span style="color:#55bbdd">◼</span> |`#55bbdd`||
-|Constant  | <span style="color:#ffdd00">◼</span> |`#ffdd00`|string escapes are Structure|
+|Name|Value|Notes|
+|-:|:-:|:-|
+|Foreground|`#ffffff`||
+|Background|`#000000`||
+|Accent    |`#3f00ff`|configurable, for some reason|
+|Structure |`#ff4466`||
+|Prose     |`#ffffff`|text in comments|
+|Variable  |`#00cc99`||
+|Function  |`#5555ff`||
+|Type      |`#00ccff`|also used for Rust lifetimes|
+|Namespace |`#8888ff`||
+|Property  |`#55bbdd`||
+|Constant  |`#ffdd00`|string escapes are Structure|
 
 mistakes to be fixed:
 - rust: `\u{A0}` renders the `{A0}` as string instead of symbol
