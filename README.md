@@ -16,8 +16,8 @@ I develop on a small laptop in a variety of environments, so text must be readab
 - I run VSCode directly in firefox, because chromium does not properly handle bitmap fonts (and it's more convenient for usage)
 
 ## Colors
-|Name|Box|Value|Notes|
-|-:|:-:|:-|
+|Name||Value|Notes|
+|-:|:-:|:-:|:-|
 |Foreground| <span style="color:#ffffff">◼</span> |`#ffffff`||
 |Background| <span style="color:#000000">◼</span> |`#000000`||
 |Accent    | <span style="color:#3f00ff">◼</span> |`#3f00ff`|configurable, for some reason|
