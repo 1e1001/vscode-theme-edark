@@ -18,17 +18,17 @@ I develop on a small laptop in a variety of environments, so text must be readab
 ## Colors
 |Name|Box|Value|Notes|
 |-:|:-:|:-|
-|Foreground|<span style=background-color:#ffffff>&nbsp;</span>|`#ffffff`||
-|Background|<span style=background-color:#000000>&nbsp;</span>|`#000000`||
-|Accent    |<span style=background-color:#3f00ff>&nbsp;</span>|`#3f00ff`|configurable, for some reason|
-|Structure |<span style=background-color:#ff4466>&nbsp;</span>|`#ff4466`||
-|Prose     |<span style=background-color:#ffffff>&nbsp;</span>|`#ffffff`|text in comments|
-|Variable  |<span style=background-color:#00cc99>&nbsp;</span>|`#00cc99`||
-|Function  |<span style=background-color:#5555ff>&nbsp;</span>|`#5555ff`||
-|Type      |<span style=background-color:#00ccff>&nbsp;</span>|`#00ccff`|also used for Rust lifetimes|
-|Namespace |<span style=background-color:#8888ff>&nbsp;</span>|`#8888ff`||
-|Property  |<span style=background-color:#55bbdd>&nbsp;</span>|`#55bbdd`||
-|Constant  |<span style=background-color:#ffdd00>&nbsp;</span>|`#ffdd00`|string escapes are Structure|
+|Foreground| <span style="background-color:#ffffff">&nbsp;</span> |`#ffffff`||
+|Background| <span style="background-color:#000000">&nbsp;</span> |`#000000`||
+|Accent    | <span style="background-color:#3f00ff">&nbsp;</span> |`#3f00ff`|configurable, for some reason|
+|Structure | <span style="background-color:#ff4466">&nbsp;</span> |`#ff4466`||
+|Prose     | <span style="background-color:#ffffff">&nbsp;</span> |`#ffffff`|text in comments|
+|Variable  | <span style="background-color:#00cc99">&nbsp;</span> |`#00cc99`||
+|Function  | <span style="background-color:#5555ff">&nbsp;</span> |`#5555ff`||
+|Type      | <span style="background-color:#00ccff">&nbsp;</span> |`#00ccff`|also used for Rust lifetimes|
+|Namespace | <span style="background-color:#8888ff">&nbsp;</span> |`#8888ff`||
+|Property  | <span style="background-color:#55bbdd">&nbsp;</span> |`#55bbdd`||
+|Constant  | <span style="background-color:#ffdd00">&nbsp;</span> |`#ffdd00`|string escapes are Structure|
 
 mistakes to be fixed:
 - rust: `\u{A0}` renders the `{A0}` as string instead of symbol
