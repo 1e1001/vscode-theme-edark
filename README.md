@@ -1,6 +1,6 @@
 # <p align="center">![image](./icon.png)<br/>edark</p>
 
-Personal VSCode theme, solid black/blue/white with the vibrant syntax highlighting of [Dark Mint](https://marketplace.visualstudio.com/items?itemName=hugolcouto.dark-mint-vscode-theme)<sup>[[license?](#license)]</sup>.
+Personal VSCode theme, solid black/blue/white with minimal but vibrant syntax coloring.
 
 [todo: editor screenshot]
 
@@ -12,28 +12,17 @@ I develop on a small laptop in a variety of environments, so text must be readab
 - The white-on-black contrast makes the screen dimmer in low-light conditions, and is always quite readable.
 - White is used as the default color for prose, which helps differentiate it from code.
 - **Dark blue is used for LSP inlay hints**, the color is chosen to be dark enough for me to automatically ignore them, but bright enough to read when needed, without needing to toggle a setting.
-- Other colors are chosen carefully to be easily distinguishable and meaningful, information given by the LSP (e.g. variable source) is not included.
+- Other colors are chosen carefully to be distinguishable (I'm partially colorblind) and meaningful, information given by the LSP (e.g. variable source) is not included.
 - I run VSCode directly in firefox, because chromium does not properly handle bitmap fonts (and it's more convenient for usage)
 
-## Colors
-|Name|Value|Notes|
-|-:|:-:|:-|
-|Foreground|`#ffffff`||
-|Background|`#000000`||
-|Accent    |`#3f00ff`|configurable, for some reason|
-|Structure |`#ff4466`||
-|Prose     |`#ffffff`|text in comments|
-|Variable  |`#00cc99`||
-|Function  |`#5555ff`||
-|Type      |`#00ccff`|also used for Rust lifetimes|
-|Namespace |`#8888ff`||
-|Property  |`#55bbdd`||
-|Constant  |`#ffdd00`|string escapes are Structure|
+The syntax colors are inspired by [Dark Mint](https://marketplace.visualstudio.com/items?itemName=hugolcouto.dark-mint-vscode-theme).
 
-mistakes to be fixed:
+Mistakes to be fixed:
 - rust: `\u{A0}` renders the `{A0}` as string instead of symbol
-- rust: make lifetimes render the entire `'name` as one Variable?
-- kdl: something i forgot
+- rust: `{}` in non-format string are highlighted red instead of yellow
+- rust: builtin types are given the semantic token `namespace`
+- rust: `!` of `macro_rules!` is highlighted blue instead of red
+- kdl: type hints are colored as their value
 - lua: `.` and `:` for property access has no scopes
 - xml: `=` for element attributes has wrong scopes (workaround using `meta.tag.xml` scope)
 
@@ -66,5 +55,3 @@ Use the provided `Makefile` to compile the extension, and install it with your c
 
 ## License
 [MIT License](./LICENSE)
-
-The theme is derived from Dark Mint, which has no license file (but says MIT in the `package.json` so i'm going with that) but I'm [hopefully using this with permission](https://github.com/hugolcouto/dark-mint-vscode-theme/issues/1), I will relicense this if needed.
